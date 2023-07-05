@@ -37,7 +37,7 @@ h3 {
 .footer-link {
     opacity: .6;
     font-size: 5px;
-    transition: font-size 250ms;
+    transition: font-size 250ms ease-in-out;
     text-decoration: none;
     color: azure;
 }
@@ -70,6 +70,7 @@ h3 {
     font-family: 16px;
     position: fixed;
     bottom: 5px;
+    transition: font-size 250ms ease-in-out;
 }
 
 .Music:hover {
